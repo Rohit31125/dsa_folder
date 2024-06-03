@@ -1,0 +1,19 @@
+arr[2] == *(arr+2)
+
+or
+
+
+i[arr] == *(i+arr)
+
+int arr[5] = {1,2,3,4,5}
+char ch[6] = "abcde";
+
+cout << arr <<endl;
+cout << ch << endl;
+
+in both of these above cases first address will be printed and in the second case value will be printed because cout function 
+implements differntly for int and ch
+
+
+
+

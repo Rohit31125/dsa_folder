@@ -1,0 +1,25 @@
+we cannot return refernce variable in a functionas it will return an error because it is a bad practice .
+it could have been modified by someone elese or it could be possible we might not be able top access the local variable in the function
+
+
+
+When a program starts there are two types of memory
+
+one is stack and heap
+
+stack is smaller memory and heap is bigger memory
+
+never put an array size to cin as it is a very bad practice because the compiler get to know the memory size during runtime not during compile time
+
+the constant memory that we use is used by stack
+the variable memory is created by the heap
+
+In static memory is release automatically while in dynamic we have to do it manually
+
+int *ptr = new int;
+
+delete ptr
+
+int *arr = new int[50];
+
+delete []arr;
